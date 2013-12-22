@@ -11,3 +11,172 @@
  *= require_self
  *= require_tree .
  */
+
+body{
+	min-width: 900px;;
+}
+
+#banner {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 125px;
+}
+.recycled_gold {
+	margin-right:300px;
+	float:right;
+	clear:both;
+	height:75px;
+	width:75px;
+}
+.moissanite {
+	height: 65px;
+}
+.chatham{
+	margin-top: -300px;
+}
+
+#slideshow {
+	
+	text-align: center;
+	margin:auto;
+	margin-top: 80px;
+	height: 400px;
+	width: 400px;
+
+
+}
+.nav {
+	clear:both;
+	margin-top: -133px;
+	width: 100%;
+overflow:hidden;
+height:120px;
+}
+
+.nav ul{
+	background-color: gray;
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center; /* "left", "center", or "right" align menu */
+}
+
+.nav li {
+display: inline;
+margin: 0;
+}
+
+#social_media img{
+	height:40px;
+	width:40px;
+}
+#social_media ul{
+	margin-top: 20px;
+	list-style-type: none;
+	text-align: center; /* "left", "center", or "right" align menu */
+
+}
+#social_media li{
+	display: inline;
+	margin: auto;
+}
+.Intro {
+	font-family: "Avenir Next";
+	font-size: 28px;
+	color: black;
+	height:300px;
+	width:300px;
+	float:left;
+	margin-left:75px;
+	margin-top:35px;
+	clear:both;
+}
+span{
+	font-weight: bolder;
+}
+#contact {
+	font-family: "Avenir Next";
+	font-size: 40px;
+	margin-left: 250px;
+	margin-top: -125px;
+
+}
+i {
+	font-size: 60px
+}
+.test {
+	font-family: "Avenir Next";
+	font-size: 18px;
+	width:700px;
+	margin-top: 20px;
+	margin-left: 230px;
+	border:2px solid black;
+	border-radius: 5px;
+}
+#testimonials {
+	margin-top: -125px;
+	height: 80px;
+	margin-bottom: 80px;
+}
+#aboutStory{
+	margin-top: -80px;
+	margin-left: 200px;
+	width: 70%;
+	text-align: left;
+	font-family: "Avenir Next";
+	font-size:25px;
+}
+#PowderMill{
+	text-align: center;
+}
+.powdermillpics {
+	height: 300px;
+	width: 300px;
+}
+#powdermillpicstext{
+	font-family: "Avenir Next"
+}
+#promo{
+	margin-top: -125px;
+	width:100%;
+	height:100%;
+}
+#alert{
+	font-family: "Avenir Next";
+	color:red;
+	text-align: center;
+}
+.finishedPics{
+	margin-top: 100px;
+	width: 100%;
+	overflow:hidden;
+}
+.finishedPics ul{
+	background-color: gray;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+.finishedPics ul li img{
+	width: 200px;
+	height: 200px;
+}
+.finishedPics li{
+	display:inline;
+	margin: 0;
+}
+#nbss{
+	text-decoration: none;
+	color:gray;
+}
+#dreamhost{
+	float:right;
+	margin-top:-55px;
+}
+#about{
+	margin-top: -125px;
+}
+#con{
+	margin-top: -125px;
+}

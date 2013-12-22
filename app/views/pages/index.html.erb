@@ -1,0 +1,131 @@
+<!doctype html>
+<head>
+	<%= stylesheet_link_tag    "application", :media => "all" %>
+	<%= javascript_include_tag "application" %>
+	<%= csrf_meta_tags %>
+	<!-- <link href="stylesheet.css" rel="stylesheet" type="text/css"> -->
+	<title>Ecogagement</title>
+	</head>
+<body>
+
+<div class="Bann">
+<img id="banner" src="images/ecogagementbanner2.png">
+</div>
+
+<div class="nav">
+	<ul>
+		<li><a href="about.html" title="Ecogagement | About"><img src="images/ecoabout.jpg"></li>
+		<li><a href="process.html" title="Ecogagement | Process"><img src="images/ecoprocess.jpg"></li>
+		<li><a href="Testimonials.html" title="Ecogagement | Testimonials"><img src="images/ecotestimonials.jpg"></li>
+		<li><a href="Contact.html" title="Ecogagement | Contact"><img src="images/ecocontact.jpg"></li></a>
+
+	</ul>
+</div>
+<p id="alert">Our site is under construction, but while we tinker with it we are OPEN for business! Feel free to look around and contact us with any questions!</p>
+<div class="Intro">
+		<p><span>Ecogagement</span> uses recycled metals combined with the finest vintage, ethically sourced, and lab created gems to create sustainable custom fine jewelry.
+		</p>
+	</div>
+<div class="recycled_gold">
+	<img src="http://stuller.scene7.com/is/image/Stuller/c8563548-5689-42c7-bd39-a11c01007d06?wid=175&hei=55">
+<div class="moissanite">
+	<img src="http://www.idexonline.com/image_bank/image_folders/Logos/Charles_And_Colvard_Logo.png">
+<div class="chatham">
+	<img src="images/Chatham.png">
+</div>
+</div>
+</div>
+
+
+
+
+
+	
+
+
+
+<div id="slideshow">
+	<script language="JavaScript1.1">
+
+
+var slideimages=new Array()
+var slidelinks=new Array()
+function slideshowimages(){
+for (i=0;i<slideshowimages.arguments.length;i++){
+slideimages[i]=new Image()
+slideimages[i].src=slideshowimages.arguments[i]
+}
+}
+
+function slideshowlinks(){
+for (i=0;i<slideshowlinks.arguments.length;i++)
+slidelinks[i]=slideshowlinks.arguments[i]
+}
+
+function gotoshow(){
+if (!window.winslide||winslide.closed)
+winslide=window.open(slidelinks[whichlink])
+else
+winslide.location=slidelinks[whichlink]
+winslide.focus()
+}
+
+//-->
+</script>
+
+
+
+	<a href="javascript:gotoshow()"><img src="images/ecorenderings.jpg" name="slide" border=0 width=100% height=100%></a> 
+<script>
+<!--
+
+//configure the paths of the images, plus corresponding target links
+slideshowimages("images/ecorenderings.jpg","images/amethyst halo.jpeg","images/newestproject.jpeg","images/Marquis.jpeg","images/SideViewRing.jpeg","images/pinkband.jpeg", "images/HexagonHalo.jpeg", "images/stackableBands.jpeg", "images/MarquisWhite.jpeg", "images/SideView2.jpeg", "images/scrollhalo.jpeg", "images/yellow3stone.jpeg")
+
+
+//configure the speed of the slideshow, in miliseconds
+var slideshowspeed=3000
+
+var whichlink=0
+var whichimage=0
+function slideit(){
+if (!document.images)
+return
+document.images.slide.src=slideimages[whichimage].src
+whichlink=whichimage
+if (whichimage<slideimages.length-1)
+whichimage++
+else
+whichimage=0
+setTimeout("slideit()",slideshowspeed)
+}
+slideit()
+
+//-->
+</script>
+</div>
+<div class="finishedPics">
+<ul class="finishedPics">
+	<li class="finishedPics"><img src="images/ecogoldwhitesapp.jpg"></li>
+	<li class="finishedPics"><img src="images/ecobluesappering.jpg"></li>
+	<li class="finishedPics"><img src="images/ecowhitegold.jpg"></li>
+	<li class="finishedPics"><img src="images/JessFront copy.jpg"></li>
+</ul>
+</div>
+<div id="social_media">
+	<ul>
+	<li><a href="https://twitter.com/Ecogagement"><img src="http://gsablogs.gsa.gov/gsablog/files/2013/08/twitter-bird-light-bgs1.png"></li>
+	<li><a href="https://www.facebook.com/ecogagement"><img src="http://www.iconarchive.com/download/i49148/yootheme/social-bookmark/social-facebook-button-blue.ico"></li>
+</ul>
+
+</div>
+<div id="dreamhost">
+	<a href="http://www.dreamhost.com/green.cgi">
+<img border="0" alt="Green Web Hosting! This site hosted by DreamHost."
+src="https://secure.newdream.net/green1.gif" height="32" width="100" /></a>
+	</div>
+</body>
+</html>
+
+</body>
+</html>

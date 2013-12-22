@@ -1,0 +1,5 @@
+LOG:  database system was shut down at 2013-12-22 13:03:58 EST
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  database "ecogagement_development" does not exist
+FATAL:  database "ecogagement_test" does not exist

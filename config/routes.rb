@@ -1,4 +1,12 @@
 Ecogagement::Application.routes.draw do
+  root :to => 'pages#index'
+
+  get 'pages/index'
+  get 'pages/contact'
+  get 'pages/about'
+  get 'pages/process'
+  get 'pages/testimonials'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
